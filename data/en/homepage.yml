@@ -1,0 +1,93 @@
+############################### Banner ##############################
+banner:
+  enable : true
+  bg_image : "images/slider-bg.jpg"
+  bg_overlay : true
+  title : "Dimsum Culture Platform"
+  content : "We promote Chinese culinary culture; cultivate the passion of Chinese culinary art through knowledge sharing and support young/budding Chinese chefs."
+
+
+############################# About #################################
+about:
+  enable : true
+  title : "Dimsum Inside Out"
+  description : "點心 - 不只是食物,是藝術,是哲學,是文化"
+  content : "
+  Dimsum is an ideology, a culture born through perfection of a culinary style.
+
+  The term Dimsum was first seen in Chinese text over a thousand years ago  referring to small snacks.   It  first  carried the meaning 'Gratitude' and  literally  means 'Touching the  Heart'.
+
+  Dimsum  is delicate,  requiring  skilful craftmanship. Each kind of  Dimsum has its own set  of  standard. For example, the popular Shrimp Dumpling (Har  Gau)  should have at least 8 folds  with thin  skin close to translucent. A chef  may take  decades of experience  to perfect a Har  Gau.
+
+  Dimsim is an art. It is to appreciate from the shape, colour,  smell,  temperature,  taste and texture. Each part of  a  dimsum  reflects the perfection of details:  from  the  skin, filling, form till  to  how  it is served.
+
+  Dimsum  is more than a  form of  culinary  art, it  reflects the ideology of Tao. It is a practice of Zen when one's  movement  and  mind integrate harmoniously with the  piece of  dimsum in hand.
+  "
+  image : "images/wrapper-img.png"
+######################### Portfolio ###############################
+portfolio:
+  enable : true
+  bg_image : "images/featue-bg.jpg"
+  title : "CLASSES"
+  description : "基礎點心烹飪, 移民創業及食材文化班"
+  content : "Our classes are conducted in English or Chinese (Cantonese/Mandarin), by  professional chefs   received  formal training of Chinese culinary art. Dimsum classes can be conducted at your required location, an idea for your party at home."
+  button:
+    enable : true
+    label : "Learn More"
+    link : "courses"
+
+
+############################# Service ############################
+service:
+  enable : false
+  # service content comes from "data/*/service.yml" file
+
+
+############################ call to action ###########################
+cta:
+  enable : false
+  bg_image : "images/call-to-action-bg.jpg"
+  title : "We design delightful experiences."
+  content : "for more enquiries:"
+  icon : "fa fa-id-card"
+  link : "#"
+
+############################# Funfacts ###############################
+funfacts:
+  enable : true
+  title : "Our Chefs"
+  funfact_item:
+    # funfacts item loop
+    - icon : "ion-ios-chatboxes-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Cups Of Coffee"
+      count : "99"
+
+    # funfacts item loop
+    - icon : "ion-ios-glasses-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Article Written"
+      count : "45"
+
+    # funfacts item loop
+    - icon : "ion-ios-compose-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Projects Completed"
+      count : "125"
+
+    # funfacts item loop
+    - icon : "ion-ios-timer-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Combined Projects"
+      count : "200"
+
+  testimonial_slider:
+    # testimonial item loop
+    - name : "Chef LUI Kai Yu"
+      image : "images/clients/avater-1.jpg"
+      designation : "雷啟裕"
+      content : "Starting his chef career at 19, Chef LUI  has been serving as Head Chef for Chinese restaurants since 24. With over 10 years experiences in Chinese culinary industry, he  has established as an award-winning chef and  drawn the attention of the  media. Apart from his professional chef career, he  is a TV  Chef hosting cooking programmes.
+LUI graduated from the Elementary programme from Chinese Culinary Institute, Hong Kong in 2008  and will complete his  Chinese Master Chef Programme in 2021."
+
+    # testimonial item loop
+    - name : "Chef Zoe, YIP Ming Wai"
+      image : "images/clients/avater-1.jpg"
+      designation : "葉銘惠"
+      content : "Zoe is one of the iconic Chinese female chefs of this generation.
+Zoe is particularly strong in Dimsum. She  is a  dimsum  chef  for  restaurants  including  Michelin star ones. Zoe is not only skilful in  dimsum,  she  is also very strong in hot dishes. Her culinary skills  is  being recognized as champion in numerous local and national culinary competitions when she competed with senior chefs with decades of experiences."
