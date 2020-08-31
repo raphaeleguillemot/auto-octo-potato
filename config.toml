@@ -27,7 +27,7 @@ name = "Facebook"
 weight = 3
 
 [[menu.main]]
-URL = "#/#about"
+URL = "https://dimsumculture.company/#about"
 name = "Mission"
 weight = 1
 
@@ -42,12 +42,12 @@ name = "Dinners"
 weight = 3
 
 [[menu.main]]
-URL = "#/#clients"
+URL = "https://dimsumculture.company/#clients"
 name = "Our Chefs"
 weight = 4
 
 [[menu.main]]
-URL = "#/#contact"
+URL = "https://dimsumculture.company/#contact"
 name = "Contact"
 weight = 5
 
