@@ -14,11 +14,11 @@ languageName = "En"
 weight = 1
 
 [[menu.footer]]
-URL = "+852 66013413"
+URL = "https://wa.link/vju481"
 name = "Whatsapp"
 weight = 1
 [[menu.footer]]
-URL = ""
+URL = "mailto:info@dimsumculture.company"
 name = "Email"
 weight = 2
 [[menu.footer]]
@@ -42,12 +42,12 @@ name = "Dinners"
 weight = 3
 
 [[menu.main]]
-URL = "https://dimsumculture.company/#clients"
+URL = "https://dimsumculture.company/#chefs"
 name = "Our Chefs"
 weight = 4
 
 [[menu.main]]
-URL = "https://dimsumculture.company/#contact"
+URL = "https://dimsumculture.company/#contacts"
 name = "Contact"
 weight = 5
 
