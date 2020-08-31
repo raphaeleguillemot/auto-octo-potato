@@ -1,3 +1,4 @@
+baseURL = "https://dimsumculture.company/"
 disableLanguages = []
 disqusShortname = ""
 paginate = "4"
