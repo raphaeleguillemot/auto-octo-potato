@@ -29,23 +29,30 @@
 {{ if $data.homepage.about.enable }}
 {{ with $data.homepage.about }}
 <!-- about -->
-<section class="about section">
+<section id="about" class="about section">
   <div class="container">
     <div class="row">
       <div class="col-md-7 col-sm-12">
         <div class="block">
           <div class="section-title">
             <h2>{{ .title | markdownify }}</h2>
-            <p>{{ .description | markdownify }}</p>
+            <h3>{{ .description | markdownify }}</h3>
           </div>
-          <p>{{ .content | markdownify }}</p>
+          <p>{{ .content1 | markdownify }}</p>
+          <p>{{ .content2 | markdownify }}</p>
+          <p>{{ .content3 | markdownify }}</p>
+          <p>{{ .content4 | markdownify }}</p>
+          <p>{{ .content5 | markdownify }}</p>
         </div>
       </div>
-      <div class="col-md-5 col-sm-12">
-        <div class="block">
-          <img src="{{ .image | relURL }}" class="img-responsive" alt="Img">
-        </div>
+
+      <div class="block col-md-5 col-sm-12 btn-large">
+        <img src="{{ .image1 | relURL }}" class="img-responsive" alt="Img">
       </div>
+      <div class="block col-md-5 col-sm-12 btn-large">
+        <img src="{{ .image2 | relURL }}" class="img-responsive" alt="Img">
+      </div>
+
     </div>
   </div>
 </section>
@@ -56,12 +63,14 @@
 {{ if $data.homepage.portfolio.enable }}
 {{ with $data.homepage.portfolio }}
 <!-- portfolio -->
-<section class="feature bg-2" style="background-image: url('{{ .bg_image | absURL}}')">
+<section class="{{if .bg_overlay}}overly{{end}} feature bg-2" style="background-image: url('{{ .bg_image | absURL}}')">
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-md-offset-6">
         <h2 class="section-subtitle">{{ .title | markdownify }}</h2>
         {{ .content | markdownify }}
+        <br>
+        <br>
         {{ if .button.enable }}
         {{ with .button }}
         <a href="{{ .link | relLangURL }}" class="btn btn-view-works">{{ .label }}</a>
@@ -90,7 +99,7 @@
 {{ if $data.homepage.funfacts.enable }}
 {{ with $data.homepage.funfacts }}
 <!-- Content Start -->
-<section class="testimonial">
+<section id="clients" class="testimonial">
   <div class="container">
     <div class="row">
       <div class="section-title text-center">
@@ -104,7 +113,6 @@
           <div class="">
             {{ range .testimonial_slider1 }}
             <div>
-              <i class="ion-quote"></i>
               <p>"{{ .content | markdownify }}"</p>
               <div class="user">
                 <img src="{{ .image | relURL }}" alt="client">
@@ -120,7 +128,6 @@
           <div class="">
             {{ range .testimonial_slider2 }}
             <div>
-              <i class="ion-quote"></i>
               <p>"{{ .content | markdownify }}"</p>
               <div class="user">
                 <img src="{{ .image | relURL }}" alt="client">

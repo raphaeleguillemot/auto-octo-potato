@@ -6,7 +6,7 @@ theme = "airspace-hugo"
 title = "Dim Sum Cultural Platform"
 [Languages.en]
 contentDir = "content/english"
-copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"
+copyright = "Copyright &copy; 2020 Dim Sum Cultral Platform All Rights Reserved"
 home = "Home"
 languageCode = "en-us"
 languageName = "En"
@@ -26,14 +26,34 @@ name = "Facebook"
 weight = 3
 
 [[menu.main]]
+URL = "#about"
+name = "Mission"
+weight = 1
+
+[[menu.main]]
 URL = "pricing"
-name = "courses"
+name = "Classes"
+weight = 2
+
+[[menu.main]]
+URL = "pricing"
+name = "Dinners"
 weight = 3
+
+[[menu.main]]
+URL = "#clients"
+name = "Our Chefs"
+weight = 4
+
+[[menu.main]]
+URL = "#contact"
+name = "Contact"
+weight = 5
 
 [params]
 author = ""
 contact_form_action = "#"
-description = "This is meta description"
+description = "We promote Chinese culinary culture; cultivate the passion of Chinese culinary art through knowledge sharing and support young/budding Chinese chefs."
 email = ""
 google_analitycs_id = ""
 location = ""
@@ -41,13 +61,13 @@ logo = "images/logo.png"
 mobile = "+852 66013413"
 multi_author = false
 [params.gmap]
-enable = true
+enable = false
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
 map_latitude = "51.5223477"
 map_longitude = "-0.1622023"
 map_marker = "images/marker.png"
 [params.nav_button]
-enable = true
+enable = false
 label = "Get A Quote"
 link = "contact"
 [[params.plugins.css]]
@@ -71,7 +91,7 @@ link = "plugins/shuffle/shuffle.min.js"
 [[params.plugins.js]]
 link = "plugins/google-map/gmap.js"
 [params.preloader]
-enable = true
+enable = false
 preloader = ""
 [params.widgets]
 sidebar = ["recent_posts", "taxonomy_category", "taxonomy_tags"]

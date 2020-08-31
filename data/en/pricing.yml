@@ -3,29 +3,19 @@ pricing:
   enable : true
   pricing_table:
     # pricing table loop
-    - name : "Basic"
-      price: "600HKD"
-      content : "a 2.5 hours class with a minimum of eight people, Groups of +10 people at 500HKD per person"
+    - name : ""
+      price: "Basic"
+      content : "600HKD, a 2.5 hours class with a minimum of eight people, Groups of +10 people at 500HKD per person"
       link : "#"
       services:
         - "**Basic Dimsum  Classes:** The chef will teach you how to make the skin and fillings of two popular dimsum; Siu Mai & Dumpling"
         - "**Basic Chinese Cooking – Steam and Stir-fry:** Learn the basic skills of Chinese cooking through steam fish & stir-fried black bean chicken, the two popular local dishes"
         - Discount applies for corporate training, please contact us.
 
-    - name : "Theme Dinners"
-      price: "+650HKD"
-      content : "per person with a minimum of eight people. Option of Wine or Tea pairing at an additional +200HKD per person"
-      link : "#"
-      services:
-        - "Not only that you can sample various special dishes that can hardly be seen in local restaurants,  our knowledgable chef will share with you stories behind each dish:"
-        - "*Nostalgic Cantonese Dishes*"
-        - "*Popular Home Cooking*"
-        - "*Royal Qing Dinner*"
-
     # pricing table loop
-    - name : "Cultural"
-      price: "1500HKD"
-      content : "per person, 4 hours with a minimum of four people. Group discount applies, please contact us"
+    - name : ""
+      price: "Cultural"
+      content : "1500HKD per person, 4 hours with a minimum of four people. Group discount applies, please contact us"
       link : "#"
       services:
         - "Shopping ingredients in the local wet market with a professional chef, then  prepare the meal  together and learn more about the local dishes."
@@ -33,9 +23,9 @@ pricing:
         - "**For Local Food lovers:** Chef will teach you how to shop the right ingredients for different kinds of dishes"
 
     # pricing table loop
-    - name : "Business"
-      price: "3500HKD"
-      content : "開設點心店所需設備及人手不多,成本不高。 移民創業班為準備移民創業香港朋友而設,讓大家可以在4個課堂掌握基本的點心製作技巧,每課堂三個小時。 課程為你提供根基,讓你開展自己的點心事業。 課程以廣東話教授。"
+    - name : ""
+      price: "Business"
+      content : "3500HKD 開設點心店所需設備及人手不多,成本不高。 移民創業班為準備移民創業香港朋友而設,讓大家可以在4個課堂掌握基本的點心製作技巧,每課堂三個小時。 課程為你提供根基,讓你開展自己的點心事業。 課程以廣東話教授。"
       link : "#"
       services:
         - 製作點心餃子皮
@@ -44,6 +34,17 @@ pricing:
         - 從製作得意點心,解析變化創新的概念
         - 基本創業所需,並解答人員有關點心創業之設備問題
         - 附上多款食譜,讓創業時參考。
+
+    #pricing table loop
+    - name : ""
+      price: "Theme Dinners"
+      content : "+650HKD per person with a minimum of eight people. Option of Wine or Tea pairing at an additional +200HKD per person"
+      link : "#"
+      services:
+        - "Not only that you can sample various special dishes that can hardly be seen in local restaurants,  our knowledgable chef will share with you stories behind each dish:"
+        - "*Nostalgic Cantonese Dishes*"
+        - "*Popular Home Cooking*"
+        - "*Royal Qing Dinner*"
 
 
 ############################# call to action #################################
