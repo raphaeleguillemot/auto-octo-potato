@@ -26,20 +26,12 @@ name = "Facebook"
 weight = 3
 
 [[menu.main]]
-URL = "blog"
-name = "Blog"
-weight = 1
-[[menu.main]]
-URL = "faq"
-name = "FAQ"
-weight = 2
-[[menu.main]]
 URL = "pricing"
 name = "courses"
 weight = 3
 
 [params]
-author = "Themefisher"
+author = ""
 contact_form_action = "#"
 description = "This is meta description"
 email = ""
